@@ -1,13 +1,15 @@
 # Weather App project
 ## About this app
-It is a Weather Forecast App made in Laravel,
-together with Tailwind CSS, Alpine.js, Chart.js
+It is a Weather Forecast App made in:\
+**TALL** stack - **T**ailwind, **A**lpine.js, **L**aravel, **L**ivewire,\
+and Chart.js.\
 Utilize OpenWeatherMap - Weather API for weather data
 
 **This application made for learning purpose.**
 
 You can expect functionality like:
 - search cities
+- drop-down list, if there are multiple cities with the same name
 - show/hide help for city search
 - current weather in the city
 - weather forecast for the next 8 days
@@ -57,3 +59,4 @@ The project was made with the following software versions:
 ## Screenshots
 ![weather-app-1](https://user-images.githubusercontent.com/47859399/130794544-2897471f-bf17-4299-952c-0bd6b10bcb80.JPG)
 ![weather-app-2](https://user-images.githubusercontent.com/47859399/130794556-9d828efc-f7cb-4c13-b1fa-bb6c35fe4d31.JPG)
+![weather-app-3](https://user-images.githubusercontent.com/47859399/131262110-c5aa3a2c-610c-4ae7-90c5-0f2f9bd4b28c.JPG)
