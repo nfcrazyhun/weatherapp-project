@@ -43,7 +43,13 @@ class WeatherController extends Controller
 
         try {
             $geocoding = $weatherService->getLocationGeocoding($location);
-            $forecast = $weatherService->getForecast($geocoding['lat'], $geocoding['lon']);
+
+            // if lat-lon not empty in querystring use then, else get them from geocoding
+            $lat = request('lat') ?? $geocoding['lat'];
+            $lon = request('lon') ?? $geocoding['lon'];
+
+            $forecast = $weatherService->getForecast($lat, $lon);
+
         } catch (WeatherException $e) {
             return view('welcome')->with([
                 'errorMessage' => [

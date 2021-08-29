@@ -14,13 +14,14 @@
     <!-- JS -->
     <script src="{{ asset('js/app.js') }}" defer></script>
 
-
     <!-- Livewire css -->
+    @livewireStyles
 </head>
 <body class="bg-gradient-to-tr from-blue-200 to-blue-400 min-h-screen">
 <div class="my-8">
     <div class="w-128 mx-auto">
-        <x-searchbar />
+
+        @livewire('city-search')
 
         @if ( isset($errorMessage) )
             <div class="bg-gray-900 text-white text-lg rounded-lg overflow-hidden p-5">
@@ -41,5 +42,6 @@
 </div>
 
 </div>
+@livewireScripts
 </body>
 </html>
