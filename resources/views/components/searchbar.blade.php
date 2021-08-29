@@ -5,7 +5,7 @@
     <form action="" method="GET">
         <input
             name="city"
-            type="text"
+            type="search"
             value="{{ request()->get('city') }}"
             class="w-full rounded-lg px-3 py-2"
             placeholder="Search city"/>
