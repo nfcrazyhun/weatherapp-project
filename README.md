@@ -54,6 +54,7 @@ The project was made with the following software versions:
 - Laravel Framework 8.52.0
 - Tailwind CSS 2.2.7
 - Alpine.js 3.2.4
+- Livewire 2.5.5
 - Chart.js 2.9.4
 
 ## Screenshots
