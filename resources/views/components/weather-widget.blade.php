@@ -56,8 +56,8 @@
                 type="button"
                 title="Show/Hide forecast"
                 class="hover:underline"
+                x-text="isForecastVisible ? 'Hide' : 'Show'"
             >
-                Toggle
             </button>
         </div>
         <!-- current-footer -->
