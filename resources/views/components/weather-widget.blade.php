@@ -95,11 +95,11 @@
                                 <div>
                                     Rain: {{ $item['pop']*100 }}%,
                                     @isset($item['rain'])
-                                        {{ ($item['rain']) }} mm
+                                        {{ round($item['rain'],1) }} mm
                                     @endisset
                                 </div>
                                 @isset($item['snow'])
-                                    <div>Snow: {{ $item['snow'] }} mm</div>
+                                    <div>Snow: {{ round($item['snow'],1) }} mm</div>
                                 @endisset
                                 <div>
                                     Wind: {{ format_wind($item['wind_speed']) }}
